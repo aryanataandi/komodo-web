@@ -35,15 +35,24 @@ a {
 
 .btn-primary {
   background-color: #48e28d;
+}
+
+.btn-primary:hover {
+  background-color: #22d572;
+}
+
+.btn-primary,
+.btn-secondary {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.btn-primary:hover {
-  background-color: #48e28d;
+.btn-primary:hover,
+.btn-secondary:hover {
   -webkit-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
           box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  margin-top: -10px;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
   position: relative;
 }
 
@@ -61,7 +70,8 @@ a {
   background-color: whitesmoke;
   -webkit-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
           box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  margin-top: -5px;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
   position: relative;
 }
 
@@ -102,7 +112,11 @@ a {
 }
 
 #section-1 {
-  margin-top: 74px;
+  padding: 82px 0;
+}
+
+#section-2-card {
+  border-radius: 28px;
 }
 
 #tagline {
