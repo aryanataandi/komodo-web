@@ -1,6 +1,15 @@
 // * Variable
-$roboto: "Roboto", sans-serif;
-$hind: "Hind Siliguri", sans-serif;
+@font-face {
+  font-family: "Made Tommy";
+  src: url("/assets/font/MADE\ TOMMY\ Thin.otf");
+  src: url("/assets/font/MADE\ TOMMY\ Light.otf");
+  src: url("/assets/font/MADE\ TOMMY\ Regular.otf");
+  src: url("/assets/font/MADE\ TOMMY\ Medium.otf");
+  src: url("/assets/font/MADE\ TOMMY\ Bold.otf");
+  src: url("/assets/font/MADE\ TOMMY\ Black.otf");
+}
+
+$made: "Made Tommy", sans-serif;
 $shadow: 0 8px 24px
   rgba(
     $color: #000000,
@@ -10,12 +19,13 @@ $primaryColor: rgb(94, 94, 252);
 $primaryColorDark: darken($primaryColor, 10%);
 
 // * Global
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: $hind;
+  font-family: $made;
 }
 
 a {
