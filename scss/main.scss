@@ -26,7 +26,6 @@ $primaryColor: #48e28d;
 $primaryColorDark: darken($primaryColor, 10%);
 
 // * Global
-
 html {
   scroll-behavior: smooth;
 }
@@ -117,7 +116,14 @@ a {
 
 #tagline {
   margin-top: -30px;
-  margin-bottom: -15px;
+  margin-bottom: -10px;
+}
+
+// ? Phone breakpoint
+@media (max-width: 575.98px) {
+  #hero-img {
+    width: 260px;
+  }
 }
 
 // ! Animated Dropdown
