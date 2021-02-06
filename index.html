@@ -35,12 +35,15 @@
                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#">Feature</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">Download</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Team</a>
               </li>
-              <li class="nav-item dropdown">
+              <!-- <li class="nav-item dropdown">
                 <a class="nav-link d-none d-lg-block" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
@@ -49,7 +52,7 @@
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link btn btn-primary btn-donate px-4" href="donate.html">Donate</a>
               </li>
@@ -63,11 +66,11 @@
           <div class="row d-flex align-items-center">
             <div data-aos="fade-up" class="col-12 col-md-7 col-lg-6 order-md-1 order-2">
               <div class="mt-2 text-md-start text-center">
-                <h1 class="display-5 display-md-4">
+                <h1 id="main-title" class="display-5 display-md-4">
                   Komodo OS
                 </h1>
                 <br/>
-                <p class="fs-4 fw-light text-muted">
+                <p id="tagline" class="fs-4 fw-light text-reset">
                   Fast, Customized, & Battery Friendly!
                 </p>
                 <br/>
@@ -90,7 +93,8 @@
     <script>
       AOS.init({
         duration: 600,
-        easing: "ease-out"
+        easing: "ease-out",
+        once: true
       });
     </script>
 

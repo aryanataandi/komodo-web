@@ -1,21 +1,28 @@
 // * Variable
 @font-face {
-  font-family: "Made Tommy";
-  src: url("/assets/font/MADE\ TOMMY\ Thin.otf");
-  src: url("/assets/font/MADE\ TOMMY\ Light.otf");
+  font-family: "Made Tommy Regular";
   src: url("/assets/font/MADE\ TOMMY\ Regular.otf");
-  src: url("/assets/font/MADE\ TOMMY\ Medium.otf");
-  src: url("/assets/font/MADE\ TOMMY\ Bold.otf");
-  src: url("/assets/font/MADE\ TOMMY\ Black.otf");
 }
 
-$made: "Made Tommy", sans-serif;
+@font-face {
+  font-family: "Made Tommy Medium";
+  src: url("/assets/font/MADE\ TOMMY\ Medium.otf");
+}
+
+@font-face {
+  font-family: "Made Tommy Bold";
+  src: url("/assets/font/MADE\ TOMMY\ Bold.otf");
+}
+
+$madeRegular: "Made Tommy Regular", sans-serif;
+$madeMedium: "Made Tommy Medium", sans-serif;
+$madeBold: "Made Tommy Bold", sans-serif;
 $shadow: 0 8px 24px
   rgba(
     $color: #000000,
     $alpha: 0.18,
   );
-$primaryColor: rgb(94, 94, 252);
+$primaryColor: #48e28d;
 $primaryColorDark: darken($primaryColor, 10%);
 
 // * Global
@@ -25,7 +32,7 @@ html {
 }
 
 body {
-  font-family: $made;
+  font-family: $madeRegular;
 }
 
 a {
@@ -79,6 +86,10 @@ a {
   }
 }
 
+#main-title {
+  font-family: $madeBold;
+}
+
 .navbar-brand img {
   height: 24px;
 }
@@ -102,6 +113,11 @@ a {
 
 #section-1 {
   margin-top: 74px;
+}
+
+#tagline {
+  margin-top: -30px;
+  margin-bottom: -15px;
 }
 
 // ! Animated Dropdown
