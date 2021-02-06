@@ -69,7 +69,7 @@ a {
 .btn-donate {
   color: $primaryColor !important;
   font-weight: 600;
-  background-color: whitesmoke;
+  background-color: rgba($color: #000, $alpha: 0.02);
   border-radius: 8px;
   border: none !important;
   transition: 0.3s;
@@ -94,6 +94,11 @@ a {
 
 #main-title {
   font-family: $madeBold;
+}
+
+.navbar {
+  background-color: rgba($color: #fff, $alpha: 0.8);
+  backdrop-filter: blur(16px);
 }
 
 .navbar-brand img {
