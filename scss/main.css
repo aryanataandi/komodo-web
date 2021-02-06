@@ -131,7 +131,9 @@ div #section-3-quotes {
   background-image: url("/assets/quotes.svg");
   background-repeat: no-repeat;
   background-position: center;
-  padding: 34px 0;
+  background-clip: padding-box;
+  background-size: 50%;
+  padding: 72px 0;
 }
 
 #tagline {
@@ -142,6 +144,12 @@ div #section-3-quotes {
 @media (max-width: 575.98px) {
   #hero-img {
     width: 260px;
+  }
+  #a11-img {
+    width: 260px;
+  }
+  #section-3 {
+    margin-top: 160px;
   }
 }
 
