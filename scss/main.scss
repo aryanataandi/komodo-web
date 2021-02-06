@@ -1,0 +1,140 @@
+// * Variable
+$roboto: "Roboto", sans-serif;
+$hind: "Hind Siliguri", sans-serif;
+$shadow: 0 8px 24px
+  rgba(
+    $color: #000000,
+    $alpha: 0.18,
+  );
+$primaryColor: rgb(94, 94, 252);
+$primaryColorDark: darken($primaryColor, 10%);
+
+// * Global
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $hind;
+}
+
+a {
+  text-decoration: none;
+}
+
+// ? Class & ID's
+.btn {
+  border: none;
+}
+
+#btn-landing a {
+  padding: 12px 18px;
+}
+
+.btn-primary {
+  background-color: $primaryColor;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $primaryColor;
+    box-shadow: $shadow;
+    margin-top: -10px;
+    position: relative;
+  }
+}
+
+.btn-donate {
+  color: $primaryColor !important;
+  font-weight: 600;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  border: none !important;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: whitesmoke;
+    box-shadow: $shadow;
+    margin-top: -5px;
+    position: relative;
+  }
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 12px;
+  box-shadow: $shadow;
+
+  .dropdown-item {
+    padding: 14px;
+  }
+}
+
+.navbar-brand img {
+  height: 24px;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  border: none;
+
+  &:focus {
+    background-color: whitesmoke;
+  }
+
+  .fas {
+    color: black;
+  }
+}
+
+#section-1 {
+  margin-top: 74px;
+}
+
+// ! Animated Dropdown
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
