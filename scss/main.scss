@@ -1,5 +1,10 @@
 // * Variable
 @font-face {
+  font-family: "Made Tommy Light";
+  src: url("/assets/font/MADE\ TOMMY\ Light.otf");
+}
+
+@font-face {
   font-family: "Made Tommy Regular";
   src: url("/assets/font/MADE\ TOMMY\ Regular.otf");
 }
@@ -14,6 +19,7 @@
   src: url("/assets/font/MADE\ TOMMY\ Bold.otf");
 }
 
+$madeLight: "Made Tommy Light", sans-serif;
 $madeRegular: "Made Tommy Regular", sans-serif;
 $madeMedium: "Made Tommy Medium", sans-serif;
 $madeBold: "Made Tommy Bold", sans-serif;
@@ -68,7 +74,6 @@ a {
 
 .btn-donate {
   color: $primaryColor !important;
-  font-weight: 600;
   background-color: rgba($color: #000, $alpha: 0.02);
   border-radius: 8px;
   border: none !important;
