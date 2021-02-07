@@ -126,7 +126,7 @@ a {
 }
 
 #section-3 {
-  margin-top: 200px;
+  margin: 180px 0;
 }
 
 #section-3-quotes {
@@ -146,6 +146,10 @@ div #section-3-quotes {
   background-color: #48e28d;
 }
 
+#ss-img {
+  width: 240px;
+}
+
 #tagline {
   margin-top: -30px;
   margin-bottom: -10px;
@@ -159,7 +163,7 @@ div #section-3-quotes {
     width: 260px;
   }
   #section-3 {
-    margin-top: 160px;
+    margin: 100px 0;
   }
 }
 
