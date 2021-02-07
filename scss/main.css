@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+.bg-primary {
+  background-color: #48e28d !important;
+}
+
 .btn {
   border: none;
 }
@@ -44,6 +48,10 @@ a {
 
 .btn-primary:hover {
   background-color: #22d572;
+}
+
+.btn-primary:focus {
+  background-color: #22d572 !important;
 }
 
 .btn-primary,
@@ -162,19 +170,31 @@ a {
   margin-bottom: -10px;
 }
 
+#section-2 {
+  margin-bottom: -210px;
+}
+
 #section-2 #section-2-card {
   border-radius: 28px;
 }
 
-#section-3 {
-  margin: 180px 0;
+#section-3 div {
+  min-height: 250px;
 }
 
-#section-3-quotes {
+#section-3 #ss-img {
+  width: 240px;
+}
+
+#section-4 {
+  padding: 180px 0;
+}
+
+#section-4-quotes {
   line-height: 150%;
 }
 
-div #section-3-quotes {
+div #section-4-quotes {
   background-image: url("/assets/quotes.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -183,28 +203,16 @@ div #section-3-quotes {
   padding: 72px 0;
 }
 
-#section-4 {
-  background-color: #48e28d;
+#section-5 .small.text-muted {
+  font-family: "Made Tommy Regular", sans-serif;
 }
 
-#section-4 #ss-img {
-  width: 240px;
+#section-5 div:last-child {
+  font-family: "Made Tommy Bold", sans-serif;
 }
 
 footer {
   background-color: #22d572;
-}
-
-footer img {
-  -webkit-filter: saturate(0);
-          filter: saturate(0);
-  -webkit-filter: brightness(100);
-          filter: brightness(100);
-}
-
-footer img:hover {
-  -webkit-filter: none;
-          filter: none;
 }
 
 footer div div:nth-child(2) a {
@@ -242,8 +250,8 @@ footer #copyright #web-dev:hover {
   #a11-img {
     width: 260px;
   }
-  #section-3 {
-    margin: 100px 0;
+  #section-4 {
+    padding: 100px 0;
   }
 }
 
