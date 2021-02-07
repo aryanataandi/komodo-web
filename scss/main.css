@@ -162,11 +162,11 @@ a {
   margin: 180px 0;
 }
 
-#section-3 #section-3-quotes {
+#section-3-quotes {
   line-height: 150%;
 }
 
-div #section-3 #section-3-quotes {
+div #section-3-quotes {
   background-image: url("/assets/quotes.svg");
   background-repeat: no-repeat;
   background-position: center;

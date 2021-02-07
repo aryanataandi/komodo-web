@@ -167,18 +167,18 @@ a {
 
 #section-3 {
   margin: 180px 0;
+}
 
-  #section-3-quotes {
-    line-height: 150%;
+#section-3-quotes {
+  line-height: 150%;
 
-    div & {
-      background-image: url("/assets/quotes.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-clip: padding-box;
-      background-size: 50%;
-      padding: 72px 0;
-    }
+  div & {
+    background-image: url("/assets/quotes.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: padding-box;
+    background-size: 50%;
+    padding: 72px 0;
   }
 }
 
