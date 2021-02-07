@@ -187,23 +187,27 @@ footer {
   background-color: #22d572;
 }
 
-footer .navbar-brand img {
+footer img {
   -webkit-filter: saturate(0);
           filter: saturate(0);
   -webkit-filter: brightness(100);
           filter: brightness(100);
 }
 
-footer ul {
-  list-style-type: none;
+footer img:hover {
+  -webkit-filter: none;
+          filter: none;
 }
 
-footer ul li a {
+footer div div:nth-child(2) a {
+  color: white;
   font-family: "Made Tommy Light", sans-serif;
   line-height: 180%;
+  display: list-item;
+  list-style: none;
 }
 
-footer ul li a:hover {
+footer div div:nth-child(2) a:hover {
   color: #48e28d !important;
 }
 

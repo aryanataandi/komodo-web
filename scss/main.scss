@@ -193,17 +193,22 @@ a {
 footer {
   background-color: $primaryColorDark;
 
-  .navbar-brand img {
+  img {
     filter: saturate(0);
     filter: brightness(100);
+
+    &:hover {
+      filter: none;
+    }
   }
 
-  ul {
-    list-style-type: none;
-
-    li a {
+  div div:nth-child(2) {
+    a {
+      color: white;
       font-family: $madeLight;
       line-height: 180%;
+      display: list-item;
+      list-style: none;
 
       &:hover {
         color: $primaryColor !important;
