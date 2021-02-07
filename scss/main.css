@@ -79,6 +79,14 @@ a {
   position: relative;
 }
 
+.text-primary {
+  color: #48e28d !important;
+}
+
+.text-primary:hover {
+  color: #22d572 !important;
+}
+
 .navbar {
   background-color: rgba(255, 255, 255, 0.8);
   -webkit-backdrop-filter: blur(16px);

@@ -87,6 +87,14 @@ a {
   }
 }
 
+.text-primary {
+  color: $primaryColor !important;
+
+  &:hover {
+    color: $primaryColorDark !important;
+  }
+}
+
 .navbar {
   background-color: rgba($color: #fff, $alpha: 0.8);
   backdrop-filter: blur(16px);
