@@ -198,6 +198,31 @@ footer ul {
   list-style-type: none;
 }
 
+footer ul li a {
+  font-family: "Made Tommy Light", sans-serif;
+  line-height: 180%;
+}
+
+footer ul li a:hover {
+  color: #48e28d !important;
+}
+
+footer #maintainer {
+  font-family: "Made Tommy Light", sans-serif;
+}
+
+footer #copyright {
+  font-family: "Made Tommy Light", sans-serif;
+}
+
+footer #copyright #web-dev {
+  color: #48e28d;
+}
+
+footer #copyright #web-dev:hover {
+  color: #22d572;
+}
+
 @media (max-width: 575.98px) {
   #hero-img {
     width: 260px;

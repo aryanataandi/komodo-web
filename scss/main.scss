@@ -200,6 +200,31 @@ footer {
 
   ul {
     list-style-type: none;
+
+    li a {
+      font-family: $madeLight;
+      line-height: 180%;
+
+      &:hover {
+        color: $primaryColor !important;
+      }
+    }
+  }
+
+  #maintainer {
+    font-family: $madeLight;
+  }
+
+  #copyright {
+    font-family: $madeLight;
+
+    #web-dev {
+      color: $primaryColor;
+
+      &:hover {
+        color: $primaryColorDark;
+      }
+    }
   }
 }
 
