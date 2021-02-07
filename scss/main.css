@@ -183,6 +183,21 @@ div #section-3 #section-3-quotes {
   width: 240px;
 }
 
+footer {
+  background-color: #22d572;
+}
+
+footer .navbar-brand img {
+  -webkit-filter: saturate(0);
+          filter: saturate(0);
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
+}
+
+footer ul {
+  list-style-type: none;
+}
+
 @media (max-width: 575.98px) {
   #hero-img {
     width: 260px;
