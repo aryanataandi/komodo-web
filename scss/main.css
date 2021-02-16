@@ -160,6 +160,14 @@ a {
   background-color: #22d572;
 }
 
+.shape-divider {
+  position: relative;
+  display: block;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
 #section-1 {
   padding: 82px 0;
 }
