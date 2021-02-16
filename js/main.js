@@ -24,6 +24,7 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+    navbarDropdown.classList.remove('show');
 }
 
 // * Responsive navbar
@@ -41,4 +42,16 @@ function responsiveNav() {
     document.getElementById("navbar").style.top = "-100px";
   }
   prevScrollpos = currentScrollPos;
+}
+
+// * Collapse navbar
+let navbarDropdown = document.getElementById('navbarNavDropdown');
+
+function collapse() {
+  navbarDropdown.classList.remove('show');
+  setTimeout(navbarHide, 1000);
+}
+
+function navbarHide() {
+  document.getElementById("navbar").style.top = "-100px";
 }
