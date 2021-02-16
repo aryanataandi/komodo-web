@@ -113,8 +113,8 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   z-index: 99;
 }
 
@@ -234,8 +234,23 @@ div #section-4-quotes {
   font-family: "Made Tommy Regular", sans-serif;
 }
 
-#section-5 div:last-child {
+#section-5 #final-section {
   font-family: "Made Tommy Bold", sans-serif;
+}
+
+#section-6 {
+  padding: 80px 0;
+  margin-top: 80px;
+}
+
+#section-6 h2 {
+  font-family: "Made Tommy Bold", sans-serif;
+}
+
+#section-6 ul {
+  line-height: 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 footer {
