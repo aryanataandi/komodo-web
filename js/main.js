@@ -58,7 +58,7 @@ function navbarHide() {
   document.getElementById("navbar").style.top = "-100px";
 }
 
-// Download fetch count
+// * Download fetch count
 // Get id from HTML
 const downloadCount = document.getElementById('download')
 
@@ -72,7 +72,7 @@ const date = current.getDate();
 fetch(`https://sourceforge.net/projects/komodos-rom/files/stats/json?start_date=2019-10-11&end_date=${year}-${month}-${date}&os_by_country=false&period=monthly`, { method: 'GET' })
   .then(response => response.json())
   .then(result => {
-    downloadCount.appendChild(document.createTextNode(`${result.summaries.time.downloads}+`))
+    downloadCount.appendChild(document.createTextNode(`${result.summaries.time.downloads}`))
   }) // Displayed on HTML
   .catch(error => console.log('error', error));
 
