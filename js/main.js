@@ -5,6 +5,7 @@ $(document).ready(function(){
 
 // * AOS
 AOS.init({
+    offset: 360,
     duration: 600,
     easing: "ease-out",
     once: true
