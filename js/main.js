@@ -1,3 +1,8 @@
+// * Preloader
+$(document).ready(function(){
+  $("#preloader").fadeOut();
+});
+
 // * AOS
 AOS.init({
     duration: 600,
