@@ -63,7 +63,7 @@ function navbarHide() {
   document.getElementById("navbar").style.top = "-100px";
 }
 
-// * Download fetch count
+// Download fetch count
 // Get id from HTML
 const downloadCount = document.getElementById('download')
 
