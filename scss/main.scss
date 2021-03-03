@@ -1,3 +1,7 @@
+$primary: #48e28d;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 // * Variable
 @font-face {
   font-family: "Made Tommy Light";
@@ -54,10 +58,6 @@ h6 {
 }
 
 // ? Class & ID's
-.bg-primary {
-  background-color: $primaryColor !important;
-}
-
 .btn {
   border: none;
 
@@ -71,14 +71,10 @@ h6 {
 }
 
 .btn-primary {
-  background-color: $primaryColor;
+  color: white;
 
   &:hover {
-    background-color: $primaryColorDark;
-  }
-
-  &:focus {
-    background-color: $primaryColorDark !important;
+    color: white;
   }
 }
 
@@ -281,6 +277,10 @@ h6 {
 }
 
 #section-5 {
+  .fa-telegram {
+    color: #2ba9db;
+  }
+
   .small.text-muted {
     font-family: $madeRegular;
   }
