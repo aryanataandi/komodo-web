@@ -4,7 +4,10 @@ $(document).ready(function(){
 });
 
 // * AOS
-
+AOS.init({
+  duration: 600,
+  once: true
+});
 
 // * Scroll to top
 let scrollButton = document.getElementById("scroll-top");
