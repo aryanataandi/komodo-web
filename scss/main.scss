@@ -92,7 +92,6 @@ h6 {
 .btn-donate {
   color: $primaryColor !important;
   background-color: rgba($color: #000, $alpha: 0.02);
-  border-radius: 80x;
   border: none !important;
   transition: 0.3s;
 
@@ -135,7 +134,7 @@ h6 {
   transition: 0.3s;
 }
 
-.navbar {
+.navbar.navbar-index {
   position: fixed;
   top: 0;
   width: 100%;

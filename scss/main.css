@@ -11405,7 +11405,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .btn-donate {
   color: #48e28d !important;
   background-color: rgba(0, 0, 0, 0.02);
-  border-radius: 80x;
   border: none !important;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -11453,7 +11452,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   transition: 0.3s;
 }
 
-.navbar {
+.navbar.navbar-index {
   position: fixed;
   top: 0;
   width: 100%;
@@ -11462,37 +11461,37 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   z-index: 99;
 }
 
-.navbar .navbar-brand img {
+.navbar.navbar-index .navbar-brand img {
   height: 22px;
 }
 
-.navbar .navbar-toggler {
+.navbar.navbar-index .navbar-toggler {
   border: none;
 }
 
-.navbar .navbar-toggler:focus {
+.navbar.navbar-index .navbar-toggler:focus {
   background-color: whitesmoke;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
-.navbar .navbar-toggler .fas {
+.navbar.navbar-index .navbar-toggler .fas {
   color: #1b1b1b;
 }
 
-.navbar .navbar-nav .nav-item:not(:last-child) {
+.navbar.navbar-index .navbar-nav .nav-item:not(:last-child) {
   margin-right: 16px;
   font-weight: 600;
 }
 
-.navbar .dropdown-menu {
+.navbar.navbar-index .dropdown-menu {
   border: none;
   border-radius: 12px;
   -webkit-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
           box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
 
-.navbar .dropdown-menu .dropdown-item {
+.navbar.navbar-index .dropdown-menu .dropdown-item {
   padding: 14px;
 }
 
