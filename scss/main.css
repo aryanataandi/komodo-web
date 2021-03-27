@@ -11439,6 +11439,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
           box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
 
+.ff-bold {
+  font-family: "Made Tommy Bold", sans-serif;
+}
+
 .text-primary {
   color: #48e28d !important;
 }
@@ -11589,11 +11593,15 @@ div #section-4-quotes {
 }
 
 #count {
-  margin-bottom: 180px;
+  margin-bottom: 120px;
 }
 
 #count img {
   width: 400px;
+}
+
+#section-5 {
+  padding-bottom: 140px;
 }
 
 #section-5 .fa-telegram {
@@ -11604,13 +11612,20 @@ div #section-4-quotes {
   font-family: "Made Tommy Regular", sans-serif;
 }
 
-#section-5 #final-section {
+#section-5 #download-section {
   font-family: "Made Tommy Bold", sans-serif;
 }
 
 #section-6 {
   padding: 80px 0;
-  margin-top: 80px;
+}
+
+#section-6 .container {
+  margin-top: -76px;
+}
+
+#section-6 .head {
+  font-family: "Made Tommy Bold", sans-serif;
 }
 
 #section-6 ul {
